@@ -1,0 +1,61 @@
+body {
+    margin:0px;
+}
+
+header {
+    background-color: darkseagreen;
+    padding:4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main {
+    background-color:cornflowerblue;
+    display: flex;
+    min-height: 400px;
+}
+footer {
+    background-color: beige;
+    padding:4px;
+    text-align: center;
+}
+
+.menu{
+
+}
+
+.side{
+    background-color: aquamarine;
+    flex-direction: column;
+}
+
+.page{
+    background-color: white;
+}
+.nav {
+    display: flex;
+    padding: 0px;
+
+}
+
+.nav li{
+    list-style: none;
+    padding: 4px 8px;
+}
+
+.contents {
+    width: 100%;
+}
+
+.logo {
+    color: indianred;
+}
+
+/**
+모바일일때는 컨텐츠만 나오게 하자.
+탭
+ - 메뉴 형식 : 메뉴누르면 계속 생성, X를 누르면 없어진다.
+    - 리소스 제거 형식은 없는가?
+ - 데이터 형식 : 정해저있다.
+
+ */

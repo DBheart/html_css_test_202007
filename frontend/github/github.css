@@ -1,0 +1,30 @@
+
+header {
+    height: 8vh;
+    background: black;
+    color:beige;
+}
+main {
+    margin:1em;
+}
+
+header div {
+    display: inline;
+}
+
+main .main{
+    padding:1em;
+}
+
+section article #historyMore {
+    weight:100%;
+}
+
+footer {
+    height: 10vh;
+    weight:100%;
+    margin:0.2em;
+}
+footer>ol>li {
+    display: inline;
+}

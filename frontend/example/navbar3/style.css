@@ -1,0 +1,66 @@
+body{
+    margin:0px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+li {
+    list-style: none;
+}
+
+nav {
+    background-color: cornflowerblue;
+    padding: 8px 12px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.logo{
+    color: darkseagreen;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding:0px;
+}
+
+.menu li{
+    padding: 4px;
+}
+
+.menu li a:hover{
+    color:orange;
+}
+
+.link {
+    display: flex;
+    padding:0px;
+}
+
+.link li{
+    padding: 4px;
+}
+
+.button {
+    position:absolute;
+    right: 10px;
+    top : 4px;
+    display: none;
+}
+
+@media screen and (max-width: 400px){
+    nav{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .menu{
+        flex-direction: column;
+    }
+
+    .button {
+        display: block;
+    }
+}

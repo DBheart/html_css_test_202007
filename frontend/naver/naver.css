@@ -1,0 +1,15 @@
+main nav {
+    display: inline;
+    background: darkseagreen;
+}
+
+nav li {
+    display: inline;
+}
+nav ul {
+    display: inline;
+}
+
+footer>ul>li {
+    display: inline;
+}
